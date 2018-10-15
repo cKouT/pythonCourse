@@ -26,3 +26,5 @@ famous_person = "\t salvador dali \n"
 
 print(famous_person.lstrip() + famous_person.rstrip() + famous_person.strip())
 
+message = message.upper()
+print(message)
