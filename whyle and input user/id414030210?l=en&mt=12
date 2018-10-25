@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="fr-fr" prefix="og: http://ogp.me/ns#"  lang="en-gb" xml:lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+<meta name="web-experience-app/config/environment" content="%7B%22appVersion%22%3A1%2C%22modulePrefix%22%3A%22web-experience-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history-hash-router-scroll%22%2C%22historySupportMiddleware%22%3Atrue%2C%22contentSecurityPolicyMeta%22%3Atrue%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%5B%22'none'%22%5D%2C%22img-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%2C%22*.apple.com%22%2C%22data%3A%22%5D%2C%22style-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%2C%22*.apple.com%22%5D%2C%22font-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2F*.apple.com%22%2C%22https%3A%2F%2F*.apple.com%22%5D%2C%22media-src%22%3A%5B%22'self'%22%2C%22blob%3A%22%2C%22http%3A%2F%2F*.apple.com%22%2C%22*.apple.com%22%2C%22http%3A%2F%2F*.akamaihd.net%22%2C%22*.akamaihd.net%22%5D%2C%22connect-src%22%3A%5B%22'self'%22%2C%22*.apple.com%22%2C%22https%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%5D%2C%22script-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%2C%22'unsafe-eval'%22%2C%22*.apple.com%22%5D%2C%22frame-src%22%3A%5B%22'self'%22%2C%22*.apple.com%22%2C%22itmss%3A%22%2C%22itms-appss%3A%22%2C%22itms-bookss%3A%22%2C%22itms-itunesus%3A%22%2C%22itms-messagess%3A%22%2C%22itms-podcasts%3A%22%2C%22itms-watchs%3A%22%2C%22macappstores%3A%22%2C%22musics%3A%22%2C%22apple-musics%3A%22%5D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22PROGRESS_BAR_DELAY%22%3A3000%2C%22name%22%3A%22web-experience-app%22%2C%22version%22%3A%221842.11.0%2Be6eed2c1%22%7D%2C%22MEDIA_API%22%3A%7B%22teamId%22%3A%22AMPWebPlay%22%2C%22keyId%22%3A%22WebPlayKid%22%2C%22privateKeyPath%22%3A%22ssl%2Fwebplayer.p8%22%2C%22token%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpc3MiOiJBTVBXZWJQbGF5IiwiaWF0IjoxNTM5ODc4ODE4LCJleHAiOjE1NTU0MzA4MTh9.u5eazrWP_ZDvVAh3MH0tUAtS7oS3znL7QvtVsd01__K9yWVKESxX-ccLxeyk3zS8b5yPwb7eXqMm4joHgalWPA%22%7D%2C%22routerScroll%22%3A%7B%22targetElement%22%3A%22%23ember-app%22%7D%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en-gb%22%2C%22useDevLoc%22%3Afalse%2C%22pathToLocales%22%3A%22dist%2Flocales%22%7D%2C%22moment%22%3A%7B%22includeLocales%22%3Atrue%2C%22includeTimezone%22%3A%22subset%22%7D%2C%22browserify%22%3A%7B%22transform%22%3A%5B%5B%22babelify%22%2C%7B%22presets%22%3A%5B%22env%22%5D%2C%22global%22%3Atrue%2C%22only%22%3A%7B%7D%7D%5D%5D%7D%2C%22API%22%3A%7B%22MZStore%22%3A%22https%3A%2F%2Fitunes.apple.com%22%2C%22UTSHost%22%3A%22https%3A%2F%2Ftv.apple.com%2Fapi%2Futs%2Fpreview%22%2C%22StorePlatform%22%3A%22https%3A%2F%2Fuclient-api.itunes.apple.com%2FWebObjects%2FMZStorePlatform.woa%2Fwa%22%2C%22globalElementsPath%22%3A%22%2Fglobal-elements%22%2C%22videoLocalizationPath%22%3A%22%2Fglobal%2Fac_media_player%2Fscripts%2Fac_media_languages%2F%22%2C%22appleTvDomain%22%3A%22tv.apple.com%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%7B%7D%5D%7D%2C%22ember-a11y-testing%22%3A%7B%22componentOptions%22%3A%7B%22turnAuditOff%22%3Atrue%2C%22axeOptions%22%3A%7B%22rules%22%3A%7B%22color-contrast%22%3A%7B%22enabled%22%3Afalse%7D%7D%7D%7D%7D%2C%22METRICS%22%3A%7B%22isEnabled%22%3Atrue%2C%22autoTrackingEnabled%22%3Atrue%2C%22topic%22%3A%22xp_amp_web_exp%22%2C%22appName%22%3A%22web-experience-app%22%2C%22metricsUrl%22%3A%22https%3A%2F%2Fxp.apple.com%2Freport%22%2C%22compoundSeparator%22%3A%22_%22%7D%2C%22assetHost%22%3A%22https%3A%2F%2Fweb-experience.itunes.apple.com%22%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22emberData%22%3A%7B%22enableRecordDataRFCBuild%22%3Afalse%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' http://*.mzstatic.com *.mzstatic.com *.apple.com data:; style-src 'self' 'unsafe-inline' *.apple.com; font-src 'self' http://*.apple.com https://*.apple.com; media-src 'self' blob: http://*.apple.com *.apple.com http://*.akamaihd.net *.akamaihd.net; connect-src 'self' *.apple.com https://*.mzstatic.com *.mzstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.apple.com; frame-src 'self' *.apple.com itmss: itms-appss: itms-bookss: itms-itunesus: itms-messagess: itms-podcasts: itms-watchs: macappstores: musics: apple-musics:; ">
+<!-- EMBER_CLI_FASTBOOT_TITLE --><link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" name="fonts">  <meta name="ember-cli-head-start" content><title>‎LimeChat on the Mac App Store</title>
+<link rel="canonical" href="https://itunes.apple.com/fr/app/limechat/id414030210?l=en&amp;mt=12">
+<link rel="manifest" href="https://apps.mzstatic.com/content/static-config/android/manifest.json">
+  <meta name="description" content="‎Read reviews, compare customer ratings, see screenshots and learn more about LimeChat. Download LimeChat for macOS 10.11 or later and enjoy it on your Mac." id="ember45044932" class="ember-view">
+
+  <meta name="keywords" content="LimeChat, Satoshi Nakagawa, Social Networking, Productivity, mac apps, app store, appstore, applications, itunes" id="ember45044934" class="ember-view">
+
+  <meta property="og:title" content="‎LimeChat" id="ember45044936" class="ember-view">
+
+  <meta property="og:description" content="‎LimeChat is a full featured IRC client that can connect to multiple servers in a window. It is fast and stable. Also it has rich keyboard shortcuts for your comfortable operations." id="ember45044938" class="ember-view">
+
+  <meta property="og:site_name" content="Mac App Store" id="ember45044940" class="ember-view">
+
+  <meta property="og:url" content="https://itunes.apple.com/fr/app/limechat/id414030210?l=en&amp;mt=12" id="ember45044942" class="ember-view">
+
+  <meta property="og:image" content="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/1200x630bb.png" id="ember45044944" class="ember-view">
+
+  <meta property="og:image:alt" content="LimeChat on the Mac App Store" id="ember45044946" class="ember-view">
+
+  <meta property="og:image:secure_url" content="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/1200x630bb.png" id="ember45044948" class="ember-view">
+
+  <meta property="og:image:type" content="image/png" id="ember45044950" class="ember-view">
+
+  <meta property="og:image:width" content="1200" id="ember45044952" class="ember-view">
+
+  <meta property="og:image:height" content="630" id="ember45044954" class="ember-view">
+
+  <meta property="og:type" content="website" id="ember45044956" class="ember-view">
+
+  <meta property="og:locale" content="en_GB" id="ember45044958" class="ember-view">
+
+  <meta property="al:ios:url" content="https://itunes.apple.com/fr/app/limechat/id414030210?l=en&amp;mt=12" id="ember45044960" class="ember-view">
+
+  <meta property="al:ios:app_store_id" content="116556461780510" id="ember45044962" class="ember-view">
+
+  <meta property="al:ios:app_name" content="App Store" id="ember45044964" class="ember-view">
+
+  <meta property="fb:app_id" content="116556461780510" id="ember45044966" class="ember-view">
+
+  <meta name="twitter:title" content="‎LimeChat" id="ember45044968" class="ember-view">
+
+  <meta name="twitter:description" content="‎LimeChat is a full featured IRC client that can connect to multiple servers in a window. It is fast and stable. Also it has rich keyboard shortcuts for your comfortable operations." id="ember45044970" class="ember-view">
+
+  <meta name="twitter:site" content="@MacAppStore" id="ember45044972" class="ember-view">
+
+  <meta name="twitter:domain" content="MacAppStore" id="ember45044974" class="ember-view">
+
+  <meta name="twitter:image" content="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/600x600bf.png" id="ember45044976" class="ember-view">
+
+  <meta name="twitter:image:alt" content="LimeChat on the Mac App Store" id="ember45044978" class="ember-view">
+
+  <meta name="twitter:card" content="summary_large_image" id="ember45044980" class="ember-view">
+
+  <script name="schema:software-application" id="ember45044982" class="ember-view" type="application/ld+json">{"@context":"http://schema.org","@type":"SoftwareApplication","name":"LimeChat","description":"LimeChat is a full featured IRC client that can connect to multiple servers in a window. It is fast and stable. Also it has rich keyboard shortcuts for your comfortable operations.","screenshot":["https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/643x0w.jpg"],"image":"https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/1200x630bb.png","applicationCategory":"Social Networking","datePublished":"2011-02-17","operatingSystem":"10.11","author":{"@type":"Person","name":"Satoshi Nakagawa","url":"https://itunes.apple.com/fr/developer/satoshi-nakagawa/289930656?l=en&amp;mt=12"},"offers":{"@type":"Offer","category":"free","price":0,"priceCurrency":"EUR"}}
+</script>
+  <meta name="apple:content_id" content="414030210" id="ember45044984" class="ember-view">
+
+
+<meta name="ember-cli-head-end" content>
+
+    <meta name="version" content="1842.11.0">
+
+    <link integrity="" rel="stylesheet" href="https://web-experience.itunes.apple.com/assets/web-experience-app-4817f81cebefc29a7182f78bbb439fdf.css">
+
+    
+  </head>
+  <body class="no-js">
+    <script type="x/boundary" id="fastboot-body-start"></script><link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalnav/3/fr_FR/styles/ac-globalnav.built.css">
+<aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="fr-FR" dir="ltr" data-strings="{ &apos;exit&apos;: &apos;Quitter&apos;, &apos;view&apos;: &apos;Accueil&#xA0;&#x2013; {%STOREFRONT%} Store&apos;, &apos;segments&apos;: { &apos;smb&apos;: &apos;Accueil Apple Store Entreprises&apos;, &apos;eduInd&apos;: &apos;Accueil Apple Store &#xC9;ducation&apos;, &apos;other&apos;: &apos;Accueil Apple Store&apos; } }">
+</aside>
+<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Navigation g&#xE9;n&#xE9;rale" data-hires="false" data-analytics-region="global nav" lang="fr-FR" dir="ltr" data-store-locale="fr" data-store-api="//www.apple.com/[storefront]/shop/bag/status" data-search-locale="fr_FR" data-search-api="//www.apple.com/search-services/suggestions/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Ouvrir le menu</span>
+				</a>
+				<a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Fermer le menu</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="//www.apple.com/fr/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<a class="ac-gn-link ac-gn-link-bag" href="//www.apple.com/fr/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Panier avec articles">
+					<span class="ac-gn-link-text">Shopping Bag</span>
+					<span class="ac-gn-bag-badge"></span>
+				</a>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="//www.apple.com/fr/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="//www.apple.com/fr/mac/" data-analytics-title="mac">
+					<span class="ac-gn-link-text">Mac</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="//www.apple.com/fr/ipad/" data-analytics-title="ipad">
+					<span class="ac-gn-link-text">iPad</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="//www.apple.com/fr/iphone/" data-analytics-title="iphone">
+					<span class="ac-gn-link-text">iPhone</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="//www.apple.com/fr/watch/" data-analytics-title="watch">
+					<span class="ac-gn-link-text">Watch</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="//www.apple.com/fr/tv/" data-analytics-title="tv">
+					<span class="ac-gn-link-text">TV</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="//www.apple.com/fr/music/" data-analytics-title="music">
+					<span class="ac-gn-link-text">Music</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/fr-fr" data-analytics-title="support">
+					<span class="ac-gn-link-text">Assistance</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a class="ac-gn-link ac-gn-link-search" href="//www.apple.com/fr/search" data-analytics-title="search" data-analytics-click="search" aria-label="Rechercher sur apple.com">
+					<span class="ac-gn-search-placeholder" aria-hidden="true">Rechercher sur apple.com</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<a class="ac-gn-link ac-gn-link-bag" href="//www.apple.com/fr/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Panier avec articles">
+					<span class="ac-gn-link-text">Shopping Bag</span>
+					<span class="ac-gn-bag-badge" aria-hidden="true"></span>
+				</a>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<form id="ac-gn-searchform" class="ac-gn-searchform" action="//www.apple.com/fr/search" method="get">
+					<div class="ac-gn-searchform-wrapper">
+						<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Rechercher sur apple.com" placeholder="Rechercher sur apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false">
+						<input id="ac-gn-searchform-src" type="hidden" name="src" value="itunes_serp">
+						<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Envoyer"></button>
+						<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Effacer la recherche"></button>
+					</div>
+				</form>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Raccourcis" data-string-suggestions="Suggestions de recherche" data-string-noresults=""></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Fermer la recherche">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim">
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+			</div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+			</div>
+		</aside>
+	</div>
+</nav>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+<script type="text/javascript" src="https://www.apple.com/ac/globalnav/3/fr_FR/scripts/ac-globalnav.built.js" async></script>
+<div class="ember-view" id="ember45044928"><!---->
+
+<main class="is-mac-theme">
+  <style id="ember45044985" class="ember-view"><!----></style>
+  <!---->
+  <div id="ember45044986" class="focusing-outlet ember-view"><div id="ember45044987" class="ember-view"><div id="ember45044988" class="focusing-outlet ember-view"><div id="ember45044989" class="ember-view">
+  <div id="ember45044990" class="ember-view"><input id="localnav-menustate" class="localnav-menustate" type="checkbox">
+<nav id="localnav" class="we-localnav localnav" role="navigation" data-sticky>
+  <div class="localnav-wrapper">
+    <div class="localnav-background we-localnav__background"></div>
+    <div class="localnav-content">
+      <div class="localnav-title we-localnav__title">
+        <a><span class="we-localnav__title__product" data-test-we-localnav-store-title>Mac App Store</span> <span class="we-localnav__title__qualifier" data-test-we-localnav-preview-title>Preview</span></a>
+      </div>
+      <div class="localnav-menu we-localnav__menu we-localnav__menu--mac">
+        <div class="localnav-actions we-localnav__actions">
+            <div class="localnav-action localnav-action-button we-localnav__action">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<label id="localnav-curtain" for="localnav-menustate"></label>
+
+</div>
+
+<div id="ember45044992" class="animation-wrapper is-visible ember-view">
+    <div id="ember45044993" style="display: none;" class="ember-view"><div class="l-content-width we-banner" role="alert">
+    <p class="we-banner__copy">Open the Mac App Store to buy and download apps.</p>
+</div>
+</div>
+  <section class="l-content-width section section--hero product-hero">
+    <div class="l-row">
+      <div class="product-hero__media l-column small-5 medium-4 large-3 small-valign-top">
+          <picture id="ember45044994" class="product-hero__artwork we-artwork--fullwidth we-artwork--square we-artwork--macos-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/230x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/460x0w.png 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/690x0w.png 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/217x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/434x0w.png 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/651x0w.png 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/246x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/492x0w.png 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/738x0w.png 3x">
+        <img class="we-artwork__image ember45044994" src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/246x0w.png" style alt height="246" width="246">
+
+  <style>
+    .ember45044994, #ember45044994::before {
+          width: 246px;
+          height: 246px;
+        }
+        .ember45044994::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember45044994, #ember45044994::before {
+          width: 217px;
+          height: 217px;
+        }
+        .ember45044994::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember45044994, #ember45044994::before {
+          width: 230px;
+          height: 230px;
+        }
+        .ember45044994::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+      </div>
+
+      <div class="l-column small-7 medium-8 large-9 small-valign-top">
+        <header class="product-header app-header product-header--padded-start" role="banner">
+          <h1 class="product-header__title app-header__title">
+            LimeChat
+              <span class="badge badge--product-title">4+</span>
+          </h1>
+<!---->          <h2 class="product-header__identity app-header__identity">
+            <a class="link" href="https://itunes.apple.com/fr/developer/satoshi-nakagawa/289930656?l=en&amp;mt=12">Satoshi Nakagawa</a>
+          </h2>
+          <ul class="product-header__list app-header__list">
+<!----><!---->          </ul>
+          <ul class="product-header__list app-header__list">
+<!---->            <li class="product-header__list__item">
+              <ul class="inline-list inline-list--mobile-compact">
+                <li class="inline-list__item inline-list__item--bulleted">Free</li>
+<!---->              </ul>
+            </li>
+<!----><!---->          </ul>
+            <div class="product-header__routes app-header__routes">
+              <p class="product-header__routes__cta">
+                <button aria-label="View in Mac App Store" id="ember45044998" style="display: none;" class="we-button we-button--outlined we-button--external icon icon-external we-button-fade-in ember-view">View in <span class="we-button__app-text">Mac App Store</span>
+</button>
+              </p>
+            </div>
+<!---->        </header>
+      </div>
+    </div>
+  </section>
+
+<!---->
+      <section class="l-content-width section section--bordered">
+      <h2 class="section__headline">Screenshots</h2>
+    <div id="ember45045000" class="we-screenshot-viewer ember-view"><div class="we-screenshot-viewer__screenshots">
+  <ul class="l-row l-row--peek">
+        <li class="l-column small-4 medium-4 large-4">
+          <picture id="ember45045002" class="we-artwork--fullwidth we-artwork--screenshot-platform-mac we-artwork--screenshot-version-mac we-artwork--screenshot-orientation-landscape we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/314x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/628x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/942x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/217x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/434x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/651x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/643x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/1286x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/1929x0w.jpg 3x">
+        <img class="we-artwork__image ember45045002" src="https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/643x0w.jpg" alt height="401" width="643">
+
+  <style>
+    .ember45045002, #ember45045002::before {
+          width: 643px;
+          height: 401px;
+        }
+        .ember45045002::before {
+          padding-top: 62.363919129082426%;
+        }
+@media (min-width: 736px) {
+          .ember45045002, #ember45045002::before {
+          width: 217px;
+          height: 135px;
+        }
+        .ember45045002::before {
+          padding-top: 62.21198156682027%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember45045002, #ember45045002::before {
+          width: 314px;
+          height: 196px;
+        }
+        .ember45045002::before {
+          padding-top: 62.42038216560509%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+  </ul>
+<!----></div>
+</div>
+  </section>
+
+
+    <section class="l-content-width section section--bordered">
+      <div class="section__description">
+        <h2 class="section__headline">Description</h2>
+        <p aria-label="LimeChat is a full featured IRC client that can connect to multiple servers in a window. It is fast and stable. Also it has rich keyboard shortcuts for your comfortable operations." id="ember45045006" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember45045007" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      LimeChat is a full featured IRC client that can connect to multiple servers in a window. It is fast and stable. Also it has rich keyboard shortcuts for your comfortable operations.
+    
+</span>
+</span>
+  </span>
+<!----></p>
+      </div>
+    </section>
+
+    <section class="l-content-width section section--bordered whats-new">
+      <div class="section__nav section__nav--small">
+        <h2 class="whats-new__headline">What's New</h2>
+<div id="ember45045008" class="version-history ember-view">  <button class="we-modal__show link" id="modal-trigger-ember45045008">Version History</button>
+<div class="we-modal we-modal--page-overlay " role="dialog" aria-hidden="true" aria-labelledby="modal-trigger-ember45045008">
+  <div class="we-modal__content large-10 medium-12" id="modal-content-ember45045008" role="document" tabindex="0">
+    <div class="we-modal__content__wrapper">
+                  <h3 class="version-history__headline">Version History</h3>
+            <ul class="version-history__items">
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.43</h4>
+                  <time data-test-we-datetime datetime="27 Jan 2018" aria-label="27 January 2018" class="version-history__item__release-date" >27 Jan 2018</time>
+                  <div title="- Fixed a crash when editing channels in On Login tab." id="ember45045011" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045012" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Fixed a crash when editing channels in On Login tab.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.42</h4>
+                  <time data-test-we-datetime datetime="25 Jun 2014" aria-label="25 June 2014" class="version-history__item__release-date" >25 Jun 2014</time>
+                  <div title="- Improve launch performance." id="ember45045014" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045015" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Improve launch performance.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.41</h4>
+                  <time data-test-we-datetime datetime="8 May 2014" aria-label="8 May 2014" class="version-history__item__release-date" >8 May 2014</time>
+                  <div title="- Fix bug when saving NickServ password. - Use SSL regardless of SOCKS proxy options. " id="ember45045017" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045018" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Fix bug when saving NickServ password.<br />- Use SSL regardless of SOCKS proxy options.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.39</h4>
+                  <time data-test-we-datetime datetime="29 Oct 2013" aria-label="29 October 2013" class="version-history__item__release-date" >29 Oct 2013</time>
+                  <div title="- Work around for theme problems." id="ember45045020" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045021" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Work around for theme problems.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.38</h4>
+                  <time data-test-we-datetime datetime="16 Oct 2013" aria-label="16 October 2013" class="version-history__item__release-date" >16 Oct 2013</time>
+                  <div title="Fix minor issues." id="ember45045023" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045024" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Fix minor issues.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.37</h4>
+                  <time data-test-we-datetime datetime="10 Sep 2013" aria-label="10 September 2013" class="version-history__item__release-date" >10 Sep 2013</time>
+                  <div title="- Work around for the crashing bug in WebKit." id="ember45045026" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045027" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Work around for the crashing bug in WebKit.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.34</h4>
+                  <time data-test-we-datetime datetime="9 Apr 2013" aria-label="9 April 2013" class="version-history__item__release-date" >9 Apr 2013</time>
+                  <div title="・Fix gist upload feature." id="ember45045029" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045030" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      ・Fix gist upload feature.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.33</h4>
+                  <time data-test-we-datetime datetime="1 Oct 2012" aria-label="1 October 2012" class="version-history__item__release-date" >1 Oct 2012</time>
+                  <div title="・Add show/hide rename event settings. ・Fix URL extractor. ・Support extended channel modes in some IRC server implementations. " id="ember45045032" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045033" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      ・Add show/hide rename event settings.<br />・Fix URL extractor.<br />・Support extended channel modes in some IRC server implementations.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.32</h4>
+                  <time data-test-we-datetime datetime="14 Aug 2012" aria-label="14 August 2012" class="version-history__item__release-date" >14 Aug 2012</time>
+                  <div title="・Notification Center support on Mountain Lion. ・Retina Display support. ・Highlight connection item in server tree when automatic join on invite settings is off. ・Join invited channel when clicked on invitation notification. ・Use Twitter API to get Twitter profile image URLs. ・Fix missing people bug in user list. ・Fix a bug where settings in numeric text fields could not be saved correctly on Mountain Lion. ・Fix a crashing bug on removing DCC connection. ・Fix typo in preferences dialog. ・Fix memory leaks. " id="ember45045035" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045036" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      ・Notification Center support on Mountain Lion.<br />・Retina Display support.<br />・Highlight connection item in server tree when automatic join on invite settings is off.<br />・Join invited channel when clicked on invitation notification.<br />・Use Twitter API to get Twitter profile image URLs.<br />・Fix missing people bug in user list.<br />・Fix a bug where settings in numeric text fields could not be saved correctly on Mountain Lion.<br />・Fix a crashing bug on removing DCC connection.<br />・Fix typo in preferences dialog.<br />・Fix memory leaks.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.30</h4>
+                  <time data-test-we-datetime datetime="23 Jan 2012" aria-label="23 January 2012" class="version-history__item__release-date" >23 Jan 2012</time>
+                  <div title="- Added an option for double click actions in user list. - Added an option to bounce dock icon on every unread private message. - Support ZNC capability to send server times when SASL is enabled. - Changed ustream host name to chat1.ustream.tv. - Show SSL errors more clearly. - Recognize afp:// URLs. " id="ember45045038" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045039" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Added an option for double click actions in user list.<br />- Added an option to bounce dock icon on every unread private message.<br />- Support ZNC capability to send server times when SASL is enabled.<br />- Changed ustream host name to chat1.ustream.tv.<br />- Show SSL errors more clearly.<br />- Recognize afp:// URLs.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.28</h4>
+                  <time data-test-we-datetime datetime="25 Aug 2011" aria-label="25 August 2011" class="version-history__item__release-date" >25 Aug 2011</time>
+                  <div title="* Fixed a redraw issue in log view. * Do not set auto join when adding a channel with /join. " id="ember45045041" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045042" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      * Fixed a redraw issue in log view.<br />* Do not set auto join when adding a channel with /join.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.27</h4>
+                  <time data-test-we-datetime datetime="16 Aug 2011" aria-label="16 August 2011" class="version-history__item__release-date" >16 Aug 2011</time>
+                  <div title="* Make marked scroller work in Lion. * Fixed an issue that Growl notifications didn't work on some environments. * Allow single quotation in URLs. " id="ember45045044" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045045" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      * Make marked scroller work in Lion.<br />* Fixed an issue that Growl notifications didn&#39;t work on some environments.<br />* Allow single quotation in URLs.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.26</h4>
+                  <time data-test-we-datetime datetime="6 Aug 2011" aria-label="6 August 2011" class="version-history__item__release-date" >6 Aug 2011</time>
+                  <div title="・Full screen support on Lion. ・Catch up on changes of Gist. ・Improved image URL parser. ・Don't attempt to rename nicks if the new nick is the same. ・Fixed an issue that adding highlight word didn't work well on Lion. ・Don't use custom scrollers on Lion. " id="ember45045047" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045048" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      ・Full screen support on Lion.<br />・Catch up on changes of Gist.<br />・Improved image URL parser.<br />・Don&#39;t attempt to rename nicks if the new nick is the same.<br />・Fixed an issue that adding highlight word didn&#39;t work well on Lion.<br />・Don&#39;t use custom scrollers on Lion.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.24</h4>
+                  <time data-test-we-datetime datetime="9 Jun 2011" aria-label="9 June 2011" class="version-history__item__release-date" >9 Jun 2011</time>
+                  <div title="・Fixed a bug in parsing mode. ・Updated Limelight theme. ・Use chat01.ustream.tv instead of chat1.ustream.tv. ・Changed caption for Nickserv password. " id="ember45045050" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045051" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      ・Fixed a bug in parsing mode.<br />・Updated Limelight theme.<br />・Use chat01.ustream.tv instead of chat1.ustream.tv.<br />・Changed caption for Nickserv password.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.23</h4>
+                  <time data-test-we-datetime datetime="25 Apr 2011" aria-label="25 April 2011" class="version-history__item__release-date" >25 Apr 2011</time>
+                  <div title="* Fixed the auto scroll problem. * Added pong interval option. * Refined preferences dialog. " id="ember45045053" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045054" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      * Fixed the auto scroll problem.<br />* Added pong interval option.<br />* Refined preferences dialog.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.21</h4>
+                  <time data-test-we-datetime datetime="15 Apr 2011" aria-label="15 April 2011" class="version-history__item__release-date" >15 Apr 2011</time>
+                  <div title="・SASL support. ・Prevent from loading big images. ・Improved nick completion to work even when the input text field is empty. " id="ember45045056" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045057" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      ・SASL support.<br />・Prevent from loading big images.<br />・Improved nick completion to work even when the input text field is empty.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.18</h4>
+                  <time data-test-we-datetime datetime="29 Mar 2011" aria-label="29 March 2011" class="version-history__item__release-date" >29 Mar 2011</time>
+                  <div title="* Add flic.kr support to inline images. * Use smaller preview images to reduce memory usage. * Fixed crashing issues when received malformed image URLs. " id="ember45045059" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045060" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      * Add flic.kr support to inline images.<br />* Use smaller preview images to reduce memory usage.<br />* Fixed crashing issues when received malformed image URLs.<br />
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.17</h4>
+                  <time data-test-we-datetime datetime="17 Feb 2011" aria-label="17 February 2011" class="version-history__item__release-date" >17 Feb 2011</time>
+                  <div title id="ember45045062" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember45045063" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+            </ul>
+
+    </div>
+
+    <button class="we-modal__close" aria-label="Close"></button>
+  </div>
+
+  <button class="we-modal__close--overlay" tabindex="-1" aria-label="Close"></button>
+</div>
+</div>      </div>
+      <div class="l-row whats-new__content">
+          <div class="l-column small-12 medium-3 large-4 small-valign-top whats-new__latest">
+            <div class="l-row">
+              <time data-test-we-datetime datetime="27 Jan 2018" aria-label="27 January 2018" class="" >27 Jan 2018</time>
+              <p class="l-column small-6 medium-12 whats-new__latest__version">Version 2.43</p>
+            </div>
+          </div>
+        <div class="l-column small-12 medium-9 large-8 small-valign-top">
+          <p aria-label="- Fixed a crash when editing channels in On Login tab." id="ember45045066" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember45045067" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Fixed a crash when editing channels in On Login tab.
+    
+</span>
+</span>
+  </span>
+<!----></p>
+        </div>
+      </div>
+    </section>
+
+      <section class="l-content-width section section--bordered">
+        <div class="section__nav">
+          <h2 class="section__headline">Ratings and Reviews</h2>
+        </div>
+<!---->        <div class="l-row l-row--peek">
+    <div id="ember45045070" class="small-valign-top l-column--equal-height l-column small-4 medium-6 large-4 ember-view"><div id="ember45045071" class="ember-view"><!----><div class="we-modal we-modal--page-overlay " role="dialog" aria-hidden="true" aria-labelledby="ember45045070">
+  <div class="we-modal__content large-10 medium-12 we-modal__content--review" id="modal-content-ember45045071" role="document" tabindex="0">
+    <div class="we-modal__content__wrapper">
+      
+                    <div id="ember45045072" class="we-customer-review lockup ember-view"><figure aria-label="4 out of 5" id="ember45045073" class="we-customer-review__rating we-star-rating--large we-star-rating ember-view"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-4"></span>
+</span>
+<!----></figure>
+
+<div class="we-customer-review__header we-customer-review__header--user">
+  <span id="ember45045074" class="we-customer-review__user we-truncate we-truncate--single-line ember-view">  Serenissime
+</span>
+
+  <time data-test-customer-review-date datetime="29/06/2018" aria-label="29 June 2018" class="we-customer-review__date" >29/06/2018</time>
+</div>
+
+<h3 id="ember45045075" class="we-customer-review__title we-truncate we-truncate--single-line ember-view">  Bug depuis 2 mises à jour
+</h3>
+
+  Depuis les deux dernières mises à jour les pseudos que j’avais indiqués ne sont plus signalés quand ils se connectent au chat…<br /><br />Sinon super appli ! Simple, sobre et très efficace<br /><br />Bravo
+
+<!----></div>
+
+
+    </div>
+
+    <button class="we-modal__close" aria-label="Close"></button>
+  </div>
+
+  <button class="we-modal__close--overlay" tabindex="-1" aria-label="Close"></button>
+</div>
+</div>
+
+                  <div id="ember45045078" class="we-customer-review lockup ember-view"><figure aria-label="4 out of 5" id="ember45045079" class="we-customer-review__rating we-star-rating--large we-star-rating ember-view"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-4"></span>
+</span>
+<!----></figure>
+
+<div class="we-customer-review__header we-customer-review__header--user">
+  <span id="ember45045080" class="we-customer-review__user we-truncate we-truncate--single-line ember-view">  Serenissime
+</span>
+
+  <time data-test-customer-review-date datetime="29/06/2018" aria-label="29 June 2018" class="we-customer-review__date" >29/06/2018</time>
+</div>
+
+<h3 id="ember45045081" class="we-customer-review__title we-truncate we-truncate--single-line ember-view">  Bug depuis 2 mises à jour
+</h3>
+
+  <p aria-label="Depuis les deux dernières mises à jour les pseudos que j’avais indiqués ne sont plus signalés quand ils se connectent au chat… Sinon super appli ! Simple, sobre et très efficace Bravo" id="ember45045082" class="we-customer-review__body we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember45045083" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Depuis les deux dernières mises à jour les pseudos que j’avais indiqués ne sont plus signalés quand ils se connectent au chat…<br /><br />Sinon super appli ! Simple, sobre et très efficace<br /><br />Bravo
+    
+</span>
+</span>
+  </span>
+<!----></p>
+<!----></div>
+
+</div>
+    <div id="ember45045085" class="small-valign-top l-column--equal-height l-column small-4 medium-6 large-4 ember-view"><div id="ember45045086" class="ember-view"><!----><div class="we-modal we-modal--page-overlay " role="dialog" aria-hidden="true" aria-labelledby="ember45045085">
+  <div class="we-modal__content large-10 medium-12 we-modal__content--review" id="modal-content-ember45045086" role="document" tabindex="0">
+    <div class="we-modal__content__wrapper">
+      
+                    <div id="ember45045087" class="we-customer-review lockup ember-view"><figure aria-label="5 out of 5" id="ember45045088" class="we-customer-review__rating we-star-rating--large we-star-rating ember-view"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-5"></span>
+</span>
+<!----></figure>
+
+<div class="we-customer-review__header we-customer-review__header--user">
+  <span id="ember45045089" class="we-customer-review__user we-truncate we-truncate--single-line ember-view">  VarTyOie
+</span>
+
+  <time data-test-customer-review-date datetime="22/05/2016" aria-label="22 May 2016" class="we-customer-review__date" >22/05/2016</time>
+</div>
+
+<h3 id="ember45045090" class="we-customer-review__title we-truncate we-truncate--single-line ember-view">  Full of feature
+</h3>
+
+  Très bonne application, très stable et performante, jolie et agréable.<br />De nombreuse features très cool !<br />Gratuit, open source,<br />TOP !
+
+<!----></div>
+
+
+    </div>
+
+    <button class="we-modal__close" aria-label="Close"></button>
+  </div>
+
+  <button class="we-modal__close--overlay" tabindex="-1" aria-label="Close"></button>
+</div>
+</div>
+
+                  <div id="ember45045093" class="we-customer-review lockup ember-view"><figure aria-label="5 out of 5" id="ember45045094" class="we-customer-review__rating we-star-rating--large we-star-rating ember-view"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-5"></span>
+</span>
+<!----></figure>
+
+<div class="we-customer-review__header we-customer-review__header--user">
+  <span id="ember45045095" class="we-customer-review__user we-truncate we-truncate--single-line ember-view">  VarTyOie
+</span>
+
+  <time data-test-customer-review-date datetime="22/05/2016" aria-label="22 May 2016" class="we-customer-review__date" >22/05/2016</time>
+</div>
+
+<h3 id="ember45045096" class="we-customer-review__title we-truncate we-truncate--single-line ember-view">  Full of feature
+</h3>
+
+  <p aria-label="Très bonne application, très stable et performante, jolie et agréable. De nombreuse features très cool ! Gratuit, open source, TOP !" id="ember45045097" class="we-customer-review__body we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember45045098" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Très bonne application, très stable et performante, jolie et agréable.<br />De nombreuse features très cool !<br />Gratuit, open source,<br />TOP !
+    
+</span>
+</span>
+  </span>
+<!----></p>
+<!----></div>
+
+</div>
+    <div id="ember45045100" class="small-valign-top l-column--equal-height l-column small-4 medium-6 large-4 ember-view"><div id="ember45045101" class="ember-view"><!----><div class="we-modal we-modal--page-overlay " role="dialog" aria-hidden="true" aria-labelledby="ember45045100">
+  <div class="we-modal__content large-10 medium-12 we-modal__content--review" id="modal-content-ember45045101" role="document" tabindex="0">
+    <div class="we-modal__content__wrapper">
+      
+                    <div id="ember45045102" class="we-customer-review lockup ember-view"><figure aria-label="4 out of 5" id="ember45045103" class="we-customer-review__rating we-star-rating--large we-star-rating ember-view"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-4"></span>
+</span>
+<!----></figure>
+
+<div class="we-customer-review__header we-customer-review__header--user">
+  <span id="ember45045104" class="we-customer-review__user we-truncate we-truncate--single-line ember-view">  Uryupinsk
+</span>
+
+  <time data-test-customer-review-date datetime="26/12/2011" aria-label="26 December 2011" class="we-customer-review__date" >26/12/2011</time>
+</div>
+
+<h3 id="ember45045105" class="we-customer-review__title we-truncate we-truncate--single-line ember-view">  Très bon mais
+</h3>
+
+  Ce client est très efficace car très léger et assez joli.<br />Il gagnerait en revanche à être légèrement pls paramétrable.<br />De plus la commande /DCC n&#39;est pas reconnue sur des serveurs qui le supportent pourtant comme QuakeNet. Dommage.<br /><br />Sinon je recommande cette appli sans hésiter.
+
+<!----></div>
+
+
+    </div>
+
+    <button class="we-modal__close" aria-label="Close"></button>
+  </div>
+
+  <button class="we-modal__close--overlay" tabindex="-1" aria-label="Close"></button>
+</div>
+</div>
+
+                  <div id="ember45045108" class="we-customer-review lockup ember-view"><figure aria-label="4 out of 5" id="ember45045109" class="we-customer-review__rating we-star-rating--large we-star-rating ember-view"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-4"></span>
+</span>
+<!----></figure>
+
+<div class="we-customer-review__header we-customer-review__header--user">
+  <span id="ember45045110" class="we-customer-review__user we-truncate we-truncate--single-line ember-view">  Uryupinsk
+</span>
+
+  <time data-test-customer-review-date datetime="26/12/2011" aria-label="26 December 2011" class="we-customer-review__date" >26/12/2011</time>
+</div>
+
+<h3 id="ember45045111" class="we-customer-review__title we-truncate we-truncate--single-line ember-view">  Très bon mais
+</h3>
+
+  <p aria-label="Ce client est très efficace car très léger et assez joli. Il gagnerait en revanche à être légèrement pls paramétrable. De plus la commande /DCC n'est pas reconnue sur des serveurs qui le supportent pourtant comme QuakeNet. Dommage. Sinon je recommande cette appli sans hésiter." id="ember45045112" class="we-customer-review__body we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember45045113" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Ce client est très efficace car très léger et assez joli.<br />Il gagnerait en revanche à être légèrement pls paramétrable.<br />De plus la commande /DCC n&#39;est pas reconnue sur des serveurs qui le supportent pourtant comme QuakeNet. Dommage.<br /><br />Sinon je recommande cette appli sans hésiter.
+    
+</span>
+</span>
+  </span>
+<!----></p>
+<!----></div>
+
+</div>
+        </div>
+      </section>
+
+<!---->
+<!---->
+  <section class="l-content-width section section--bordered">
+    <div class="l-row">
+      <div class="l-column small-12">
+        <h2 class="section__headline">Information</h2>
+        <dl class="information-list information-list--app medium-columns">
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Seller</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">
+              Satoshi Nakagawa
+            </dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Size</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" aria-label="2 megabytes">2 MB</dd>
+          </div>
+            <div class="information-list__item l-row">
+              <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Category</dt>
+              <dd class="information-list__item__definition l-column medium-9 large-6">
+                  <a href="https://itunes.apple.com/fr/genre/id12016?l=en" class="link">Social Networking</a>
+              </dd>
+            </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Compatibility</dt>
+            <dd aria-label="OS X 10.11 or later, 64-bit processor" id="ember45045114" class="information-list__item__definition l-column medium-9 large-6 we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember45045115" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      OS X 10.11 or later, 64-bit processor
+    
+</span>
+</span>
+  </span>
+<!----></dd>
+          </div>
+<!---->          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Languages</dt>
+            <dd aria-label="English" id="ember45045116" class="information-list__item__definition l-column medium-9 large-6 we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember45045117" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      English
+    
+</span>
+</span>
+  </span>
+<!----></dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Age Rating</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">Rated 4+</dd>
+          </div>
+<!----><!---->          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Copyright</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">© Satoshi Nakagawa</dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Price</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">Free</dd>
+          </div>
+<!---->
+        </dl>
+      </div>
+      <div class="l-column small-hide medium-show medium-9 medium-offset-3 large-10 large-offset-2">
+        <ul class="inline-list inline-list--app-extensions">
+<!---->            <li class="inline-list__item inline-list__item--margin-inline-end-large">
+              <a class="link icon icon-after icon-external" href="http://limechat.net/mac/">App Support</a>
+            </li>
+<!----><!---->        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--link-list l-content-width medium-hide">
+    <ul class="link-list link-list--a">
+<!---->        <li class="link-list__item link-list__item--a">
+          <a class="link icon icon-after icon-external" href="http://limechat.net/mac/">App Support</a>
+        </li>
+<!----><!---->    </ul>
+  </section>
+
+    <section class="l-content-width section section--bordered">
+      <div class="section__nav">
+        <h2 class="section__headline">Supports</h2>
+      </div>
+      <ul class="supports-list l-row">
+          <li class="supports-list__item l-column l-column--grid small-12 medium-6 large-4">
+            <img src="https://web-experience.itunes.apple.com/assets/images/supports/supports-FamilySharing@2x-f58f31bc78fe9fe7be3565abccbecb34.png" class="supports-list__item__artwork" alt>
+            <div class="supports-list__item__copy">
+              <h3 id="ember45045118" class="supports-list__item__copy__heading we-truncate we-truncate--single-line ember-view">  Family Sharing
+</h3>
+              <h4 aria-label="Up to six family members will be able to use this app with Family Sharing enabled." id="ember45045119" class="supports-list__item__copy__description we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember45045120" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Up to six family members will be able to use this app with Family Sharing enabled.
+    
+</span>
+</span>
+  </span>
+<!----></h4>
+            </div>
+          </li>
+      </ul>
+    </section>
+
+      <section class="l-content-width section section--bordered">
+        <div class="section__nav">
+          <h2 class="section__headline">
+            More By This Developer
+          </h2>
+          <a rel="nofollow" data-we-link-to-exclude href="/fr/app/limechat/id414030210#see-all/more-by-this-developer" id="ember45045121" style="display: none;" class="link section__nav__see-all-link ember-view">See All</a>
+        </div>
+
+        <div class="l-row l-row--peek">
+    
+                <a href="https://itunes.apple.com/fr/app/limechat-irc-client/id298766460?l=en&amp;mt=8" data-test-we-lockup-kind="iosSoftware" id="ember45045125" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember45045127" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/146x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/292x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/158x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/316x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/400x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember45045127" src="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x0w.jpg" style="background-color: #4fd962;" alt height="200" width="200">
+
+  <style>
+    .ember45045127, #ember45045127::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember45045127::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember45045127, #ember45045127::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember45045127::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember45045127, #ember45045127::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember45045127::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember45045131" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  LimeChat - IRC Client
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Social Networking</div>
+<!----></a>
+
+
+
+        </div>
+      </section>
+
+<!---->
+
+<!----></div>
+</div></div></div></div>
+  <!---->
+</main>
+</div><footer id="ac-globalfooter" class="no-js" role="contentinfo" lang="fr-FR" dir="ltr"><div class="ac-gf-content"><link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalfooter/3/fr_FR/styles/ac-globalfooter.built.css">
+<section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		Vous pouvez aussi faire vos achats dans un <a href="https://www.apple.com/fr/retail/">Apple Store</a>, par t&#xE9;l&#xE9;phone au 0800 046 046 ou chez un <a href="https://locate.apple.com/fr/fr/">revendeur agr&#xE9;&#xE9;</a>.
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="//www.apple.com/choose-your-country/" title="Choisir un pays" aria-label="France. Choisir un pays"><span class="ac-gf-footer-locale-flag" data-hires="false"></span>France</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright &#xA9; 2018 Apple Inc. Tous droits r&#xE9;serv&#xE9;s.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/fr/privacy/privacy-policy/">Engagement de confidentialit&#xE9;</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/legal/privacy/fr/cookies/">Utilisation des cookies</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/fr/legal/terms/site.html">Conditions d&#x2019;utilisation</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/fr/shop/goto/help/sales_refunds">Ventes et remboursements</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/fr/legal/">Mentions l&#xE9;gales</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/fr/sitemap/">Plan du site</a>
+		</div>
+	</div>
+</section>
+<script type="text/javascript" src="https://www.apple.com/ac/globalfooter/3/fr_FR/scripts/ac-globalfooter.built.js" async></script>
+</div></footer><script type="fastboot/shoebox" id="shoebox-language-tag">"en-gb"</script><script type="fastboot/shoebox" id="shoebox-ember-data-store">{"data":{"type":"product/app","id":"414030210","attributes":{"userRating":{"value":0,"ratingCount":0,"ratingCountList":[0,0,0,0,0],"ariaLabelForRatings":"0 stars"},"deviceFamilies":["mac"],"metricsBase":{"pageType":"Software","pageId":"414030210","pageDetails":"Satoshi Nakagawa_LimeChat","page":"Software_414030210","serverInstance":"2002704","storeFrontHeader":"","language":"2","platformId":"8","platformName":"ItunesPreview","storeFront":"143442","environmentDataCenter":"ST11"},"contentRating":{"name":"4+","value":100,"rank":1},"copyright":"© Satoshi Nakagawa","description":"LimeChat is a full featured IRC client that can connect to multiple servers in a window. It is fast and stable. Also it has rich keyboard shortcuts for your comfortable operations.","familyShareEnabledDate":"0001-04-23T00:00:00Z","kind":"desktopApp","name":"LimeChat","ratingText":"Rated 4+","advisories":[],"releaseDate":"2011-02-17","softwareInfo":{"seller":"Satoshi Nakagawa","languagesDisplayString":"English","requirementsString":"OS X 10.11 or later, 64-bit processor","eulaUrl":null,"supportUrl":"http://limechat.net/mac/","websiteUrl":null,"privacyPolicyUrl":null,"privacyPolicyTextUrl":null},"url":"https://itunes.apple.com/fr/app/limechat/id414030210?l=en\u0026mt=12","versionHistory":[{"releaseNotes":"- Fixed a crash when editing channels in On Login tab.","versionString":"2.43","releaseDate":"2018-01-27T21:46:17Z"},{"releaseNotes":"- Improve launch performance.","versionString":"2.42","releaseDate":"2014-06-25T20:51:32Z"},{"releaseNotes":"- Fix bug when saving NickServ password.\n- Use SSL regardless of SOCKS proxy options.\n","versionString":"2.41","releaseDate":"2014-05-08T22:40:25Z"},{"releaseNotes":"- Work around for theme problems.","versionString":"2.39","releaseDate":"2013-10-29T21:14:50Z"},{"releaseNotes":"Fix minor issues.","versionString":"2.38","releaseDate":"2013-10-16T19:14:07Z"},{"releaseNotes":"- Work around for the crashing bug in WebKit.","versionString":"2.37","releaseDate":"2013-09-11T02:01:00Z"},{"releaseNotes":"・Fix gist upload feature.","versionString":"2.34","releaseDate":"2013-04-10T01:26:57Z"},{"releaseNotes":"・Add show/hide rename event settings.\r\n・Fix URL extractor.\r\n・Support extended channel modes in some IRC server implementations.\r\n","versionString":"2.33","releaseDate":"2012-10-01T23:55:29Z"},{"releaseNotes":"・Notification Center support on Mountain Lion.\n・Retina Display support.\n・Highlight connection item in server tree when automatic join on invite settings is off.\n・Join invited channel when clicked on invitation notification.\n・Use Twitter API to get Twitter profile image URLs.\n・Fix missing people bug in user list.\n・Fix a bug where settings in numeric text fields could not be saved correctly on Mountain Lion.\n・Fix a crashing bug on removing DCC connection.\n・Fix typo in preferences dialog.\n・Fix memory leaks.\n","versionString":"2.32","releaseDate":"2012-08-14T21:47:08Z"},{"releaseNotes":"- Added an option for double click actions in user list.\n- Added an option to bounce dock icon on every unread private message.\n- Support ZNC capability to send server times when SASL is enabled.\n- Changed ustream host name to chat1.ustream.tv.\n- Show SSL errors more clearly.\n- Recognize afp:// URLs.\n","versionString":"2.30","releaseDate":"2012-01-24T03:38:29Z"},{"releaseNotes":"* Fixed a redraw issue in log view.\n* Do not set auto join when adding a channel with /join.\n","versionString":"2.28","releaseDate":"2011-08-25T16:35:35Z"},{"releaseNotes":"* Make marked scroller work in Lion.\n* Fixed an issue that Growl notifications didn't work on some environments.\n* Allow single quotation in URLs.\n","versionString":"2.27","releaseDate":"2011-08-16T15:13:31Z"},{"releaseNotes":"・Full screen support on Lion.\n・Catch up on changes of Gist.\n・Improved image URL parser.\n・Don't attempt to rename nicks if the new nick is the same.\n・Fixed an issue that adding highlight word didn't work well on Lion.\n・Don't use custom scrollers on Lion.\n","versionString":"2.26","releaseDate":"2011-08-06T07:34:18Z"},{"releaseNotes":"・Fixed a bug in parsing mode.\r\n・Updated Limelight theme.\r\n・Use chat01.ustream.tv instead of chat1.ustream.tv.\r\n・Changed caption for Nickserv password.\r\n","versionString":"2.24","releaseDate":"2011-06-09T18:55:51Z"},{"releaseNotes":"* Fixed the auto scroll problem.\r\n* Added pong interval option.\r\n* Refined preferences dialog.\r\n","versionString":"2.23","releaseDate":"2011-04-26T00:32:52Z"},{"releaseNotes":"・SASL support.\n・Prevent from loading big images.\n・Improved nick completion to work even when the input text field is empty.\n","versionString":"2.21","releaseDate":"2011-04-16T01:23:01Z"},{"releaseNotes":"* Add flic.kr support to inline images.\r\n* Use smaller preview images to reduce memory usage.\r\n* Fixed crashing issues when received malformed image URLs.\r\n","versionString":"2.18","releaseDate":"2011-03-29T23:47:43Z"},{"releaseNotes":null,"versionString":"2.17","releaseDate":"2011-02-17T18:25:18Z"}],"size":1972844,"minimumOSVersion":"10.11","macScreenshotsVersion":"mac"},"relationships":{"offers":{"data":[{"type":"offer","id":"st23525916"}]},"developer":{"data":{"type":"lockup/developer","id":"289930656"}},"artwork":{"data":{"type":"image","id":"st23525917"}},"macScreenshots":{"data":[{"type":"image","id":"st45044907"}]},"subscriptions":{"data":[]},"inAppPurchases":{"data":[]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567608"}]},"moreByThisDeveloper":{"data":[{"type":"lockup/app","id":"298766460"}]},"reviews":{"data":[{"type":"review","id":"st45044909"},{"type":"review","id":"st45044910"},{"type":"review","id":"st45044911"},{"type":"review","id":"st45044912"},{"type":"review","id":"st45044913"}]}}},"included":[{"type":"offer","id":"st23525916","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":1972844}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=414030210\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=825783810","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st1419916","attributes":{"actionText":{"short":"Buy","medium":"Buy","long":"Buy App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":1979392}],"buyParams":"productType=C\u0026price=5490\u0026salableAdamId=298766460\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=826038679","price":5.49,"priceFormatted":"5,49 €","type":"buy"},"relationships":{}},{"type":"offer","id":"st387375","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":5925472}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=421358730\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=818437252","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st838943","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":4053612}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=485812721\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=812271407","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st387379","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":55741047}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=539883307\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828613003","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st36147677","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":22899315}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=747648890\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829020262","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st387383","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":22510839}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=836500024\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828371835","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st387385","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":40844289}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=869223134\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828849297","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st387387","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":35813995}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=946399090\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828873770","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st21424808","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":25074300}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=963509558\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829000789","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st1119881","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":3295843}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=965915283\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=823663623","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st387391","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":2706017}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=980329862\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=817189120","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st387395","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":461417}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1004520921\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=812617534","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st387397","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":2812542}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1077753332\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=820730636","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st387399","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":4352635}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1084346074\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828567859","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st23525909","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":136219248}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1147396723\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829010654","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"offer","id":"st26387633","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"macSoftware","size":25078380}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1381523962\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829021671","price":0,"priceFormatted":"0,00 €","type":"get"},"relationships":{}},{"type":"lockup/developer","id":"289930656","attributes":{"name":"Satoshi Nakagawa","url":"https://itunes.apple.com/fr/developer/satoshi-nakagawa/289930656?l=en\u0026mt=12"},"relationships":{}},{"type":"image","id":"st23525917","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"ebfebe","textColor2":"a3eb00","textColor3":"bccb98","textColor4":"82bc00","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/7d/d1/297dd1cb-0002-4d26-bfaf-f551e75892f6/application.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st45044907","attributes":{"height":800,"supportsLayeredImage":false,"url":"https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/79/5d/bc/795dbc2e-41b7-bb07-bdca-cff598f6b7bb/mzl.oupcauyn.png/{w}x{h}bb.{f}","width":1280,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st1030360","attributes":{"bgColor":"4fd962","height":1024,"supportsLayeredImage":false,"textColor1":"141614","textColor2":"161616","textColor3":"203d24","textColor4":"223d25","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/77/9f/f5779f44-0285-c5e9-c5ad-d9da30505094/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st387376","attributes":{"bgColor":"f0f0f0","height":1024,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"021440","textColor3":"303030","textColor4":"324063","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple19/v4/c0/52/95/c0529581-92f5-01ac-3fc7-f9975f9d24c4/APPL.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st838945","attributes":{"bgColor":"54abee","height":1024,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"000000","textColor3":"11222f","textColor4":"11222f","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple1/v4/c4/5c/53/c45c5389-e3f5-fd9c-7813-61740a19bd9c/app.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st387380","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"00df00","textColor3":"cbcbcb","textColor4":"00b200","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/d4/8a/dd/d48addb0-bd27-5687-a8ae-1276c3e1d31f/LINE.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st36147678","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"3db8f6","textColor2":"37a9e3","textColor3":"3193c5","textColor4":"2c87b5","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/20/c0/d9/20c0d97e-8c72-8d93-2acb-2b64a6a71bdf/AppIcon-0-85-220-0-4-2x.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st387384","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"a3f76c","textColor2":"95f055","textColor3":"82c556","textColor4":"77c044","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/b6/62/cb/b662cb41-c668-a22b-c2e4-a330166346b8/AppIcon-85-220-4-2x.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st387386","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"fce300","textColor2":"d5b112","textColor3":"cab500","textColor4":"aa8e0e","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/bb/c1/b2/bbc1b2ad-a30d-14a1-a0b5-6708e2452ffc/AppIcon-85-220-4-2x.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st387388","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"35b3f4","textColor2":"1d9fe1","textColor3":"2b8fc3","textColor4":"177fb4","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/e7/b5/72/e7b5723e-8a47-c124-d825-f59eac5aee1a/AppIcon-0-85-220-4-2x.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st21415176","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"f6483c","textColor3":"cbcbcb","textColor4":"c43930","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/77/6a/ea/776aead2-d8dc-9142-e22b-7e1bb707d3f3/app.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st1119882","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"f2fbff","textColor2":"e1edf5","textColor3":"c1c8cb","textColor4":"b4bdc4","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/ed/f3/41/edf34172-5f95-243d-d287-b120f9a68794/mzl.iqjqzjfj.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st387392","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"ddecfb","textColor2":"cfdfef","textColor3":"b1bdc9","textColor4":"a5b2bf","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple60/v4/04/76/ed/0476ed9e-e397-5624-666b-bcdeb3d0ae10/mzm.nocdrovw.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st387396","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"dfdfdf","textColor3":"cbcbcb","textColor4":"b3b3b3","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple1/v4/e6/bd/a0/e6bda05c-9150-3ed8-a502-b3cdd83fd621/AppIcon-2.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st387398","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"f7fbfd","textColor2":"59baf4","textColor3":"c5c8ca","textColor4":"4794c3","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/6e/cc/12/6ecc12ba-28c1-d225-6e11-2dbb81bb7071/AppIcon.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st387400","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"f6fafc","textColor2":"5dfa79","textColor3":"c4c8c9","textColor4":"4ac861","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/09/a5/b5/09a5b595-b723-f567-d5ce-121228249c20/WAAppIcon-85-220-4-2x.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st23525910","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"58e669","textColor3":"cbcbcb","textColor4":"46b854","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/a2/da/62/a2da625a-aa40-093b-fe71-156eebde9442/electron.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st26387634","attributes":{"bgColor":"000000","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"ff004d","textColor3":"cbcbcb","textColor4":"cb003d","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/8d/a7/20/8da72008-74f9-d4a3-ff3e-c5e73c9b5768/Icon_Red-85-220-0-4-2x.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":true},"relationships":{}},{"type":"genre","id":"st45044908","attributes":{"mediaType":"12","name":"Social Networking","url":"https://itunes.apple.com/fr/genre/id12016?l=en"},"relationships":{}},{"type":"genre","id":"st20567608","attributes":{"mediaType":"12","name":"Productivity","url":"https://itunes.apple.com/fr/genre/id12014?l=en"},"relationships":{}},{"type":"genre","id":"st146350","attributes":{"mediaType":"8","name":"Social Networking","url":"https://itunes.apple.com/fr/genre/id6005?l=en"},"relationships":{}},{"type":"genre","id":"st20567610","attributes":{"mediaType":"12","name":"Utilities","url":"https://itunes.apple.com/fr/genre/id12019?l=en"},"relationships":{}},{"type":"genre","id":"st42315442","attributes":{"mediaType":"12","name":"Lifestyle","url":"https://itunes.apple.com/fr/genre/id12008?l=en"},"relationships":{}},{"type":"genre","id":"st20567609","attributes":{"mediaType":"12","name":"Business","url":"https://itunes.apple.com/fr/genre/id12001?l=en"},"relationships":{}},{"type":"genre","id":"st20567607","attributes":{"mediaType":"12","name":"Photography","url":"https://itunes.apple.com/fr/genre/id12013?l=en"},"relationships":{}},{"type":"genre","id":"st14085364","attributes":{"mediaType":"12","name":"Entertainment","url":"https://itunes.apple.com/fr/genre/id12004?l=en"},"relationships":{}},{"type":"lockup/app","id":"298766460","attributes":{},"relationships":{}},{"type":"lockup/app","id":"298766460","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"289930656","artistName":"Satoshi Nakagawa","artistUrl":"https://itunes.apple.com/fr/developer/satoshi-nakagawa/id289930656?l=en\u0026mt=8","kind":"iosSoftware","name":"LimeChat - IRC Client","url":"https://itunes.apple.com/fr/app/limechat-irc-client/id298766460?l=en\u0026mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st1419916"}]},"genres":{"data":[{"type":"genre","id":"st146350"}]},"artwork":{"data":{"type":"image","id":"st1030360"}}}},{"type":"lockup/app","id":"421358730","attributes":{"deviceFamilies":["mac"],"artistId":"320240050","artistName":"FIPLAB Ltd","artistUrl":"https://itunes.apple.com/fr/artist/fiplab-ltd/320240050?l=en\u0026mt=12","kind":"desktopApp","name":"MenuTab for Facebook","url":"https://itunes.apple.com/fr/app/menutab-for-facebook/id421358730?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387375"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567610"}]},"artwork":{"data":{"type":"image","id":"st387376"}}}},{"type":"lockup/app","id":"485812721","attributes":{"deviceFamilies":["mac"],"artistId":"296415947","artistName":"Twitter, Inc.","artistUrl":"https://itunes.apple.com/fr/artist/twitter-inc/296415947?l=en\u0026mt=12","kind":"desktopApp","name":"TweetDeck by Twitter","url":"https://itunes.apple.com/fr/app/tweetdeck-by-twitter/id485812721?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st838943"}]},"genres":{"data":[{"type":"genre","id":"st45044908"}]},"artwork":{"data":{"type":"image","id":"st838945"}}}},{"type":"lockup/app","id":"539883307","attributes":{"deviceFamilies":["mac"],"artistId":"359067226","artistName":"LINE Corporation","artistUrl":"https://itunes.apple.com/fr/artist/line-corporation/359067226?l=en\u0026mt=12","kind":"desktopApp","name":"LINE","url":"https://itunes.apple.com/fr/app/line/id539883307?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387379"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st42315442"}]},"artwork":{"data":{"type":"image","id":"st387380"}}}},{"type":"lockup/app","id":"747648890","attributes":{"deviceFamilies":["mac"],"artistId":"898228813","artistName":"Telegram Messenger LLP","artistUrl":"https://itunes.apple.com/fr/artist/telegram-messenger-llp/898228813?l=en\u0026mt=12","kind":"desktopApp","name":"Telegram","url":"https://itunes.apple.com/fr/app/telegram/id747648890?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st36147677"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st42315442"}]},"artwork":{"data":{"type":"image","id":"st36147678"}}}},{"type":"lockup/app","id":"836500024","attributes":{"deviceFamilies":["mac"],"artistId":"504515421","artistName":"Tencent Mobile International Limited","artistUrl":"https://itunes.apple.com/fr/artist/tencent-mobile-international-limited/504515421?l=en\u0026mt=12","kind":"desktopApp","name":"WeChat","url":"https://itunes.apple.com/fr/app/wechat/id836500024?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387383"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567608"}]},"artwork":{"data":{"type":"image","id":"st387384"}}}},{"type":"lockup/app","id":"869223134","attributes":{"deviceFamilies":["mac"],"artistId":"362057950","artistName":"Kakao Corp.","artistUrl":"https://itunes.apple.com/fr/artist/kakao-corp/362057950?l=en\u0026mt=12","kind":"desktopApp","name":"KakaoTalk","url":"https://itunes.apple.com/fr/app/kakaotalk/id869223134?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387385"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567608"}]},"artwork":{"data":{"type":"image","id":"st387386"}}}},{"type":"lockup/app","id":"946399090","attributes":{"deviceFamilies":["mac"],"artistId":"898228813","artistName":"Telegram Messenger LLP","artistUrl":"https://itunes.apple.com/fr/artist/telegram-messenger-llp/898228813?l=en\u0026mt=12","kind":"desktopApp","name":"Telegram Desktop","url":"https://itunes.apple.com/fr/app/telegram-desktop/id946399090?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387387"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567609"}]},"artwork":{"data":{"type":"image","id":"st387388"}}}},{"type":"lockup/app","id":"963509558","attributes":{"deviceFamilies":["mac"],"artistId":"438371057","artistName":"ThinkTime Creations LLC","artistUrl":"https://itunes.apple.com/fr/artist/thinktime-creations-llc/438371057?l=en\u0026mt=12","kind":"desktopApp","name":"Grids - For Instagram","url":"https://itunes.apple.com/fr/app/grids-for-instagram/id963509558?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st21424808"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567607"}]},"artwork":{"data":{"type":"image","id":"st21415176"}}}},{"type":"lockup/app","id":"965915283","attributes":{"deviceFamilies":["mac"],"artistId":"320240050","artistName":"FIPLAB Ltd","artistUrl":"https://itunes.apple.com/fr/artist/fiplab-ltd/320240050?l=en\u0026mt=12","kind":"desktopApp","name":"Go for Facebook - Unofficial","url":"https://itunes.apple.com/fr/app/go-for-facebook-unofficial/id965915283?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st1119881"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st14085364"}]},"artwork":{"data":{"type":"image","id":"st1119882"}}}},{"type":"lockup/app","id":"980329862","attributes":{"deviceFamilies":["mac"],"artistId":"320240050","artistName":"FIPLAB Ltd","artistUrl":"https://itunes.apple.com/fr/artist/fiplab-ltd/320240050?l=en\u0026mt=12","kind":"desktopApp","name":"Go for Instagram","url":"https://itunes.apple.com/fr/app/go-for-instagram/id980329862?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387391"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567607"}]},"artwork":{"data":{"type":"image","id":"st387392"}}}},{"type":"lockup/app","id":"1004520921","attributes":{"deviceFamilies":["mac"],"artistId":"404884284","artistName":"Joacim Ståhl","artistUrl":"https://itunes.apple.com/fr/artist/joacim-st%C3%A5hl/404884284?l=en\u0026mt=12","kind":"desktopApp","name":"Chat for Facebook Messenger - Instant at your desktop!","url":"https://itunes.apple.com/fr/app/chat-for-facebook-messenger-instant-at-your-desktop/id1004520921?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387395"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st42315442"}]},"artwork":{"data":{"type":"image","id":"st387396"}}}},{"type":"lockup/app","id":"1077753332","attributes":{"deviceFamilies":["mac"],"artistId":"457404255","artistName":"Rocky Sand Studio Ltd.","artistUrl":"https://itunes.apple.com/fr/artist/rocky-sand-studio-ltd/457404255?l=en\u0026mt=12","kind":"desktopApp","name":"FreeChat for Facebook Messenger","url":"https://itunes.apple.com/fr/app/freechat-for-facebook-messenger/id1077753332?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387397"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st14085364"}]},"artwork":{"data":{"type":"image","id":"st387398"}}}},{"type":"lockup/app","id":"1084346074","attributes":{"deviceFamilies":["mac"],"artistId":"457404255","artistName":"Rocky Sand Studio Ltd.","artistUrl":"https://itunes.apple.com/fr/artist/rocky-sand-studio-ltd/457404255?l=en\u0026mt=12","kind":"desktopApp","name":"FreeChat for WhatsApp","url":"https://itunes.apple.com/fr/app/freechat-for-whatsapp/id1084346074?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st387399"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st14085364"}]},"artwork":{"data":{"type":"image","id":"st387400"}}}},{"type":"lockup/app","id":"1147396723","attributes":{"deviceFamilies":["mac"],"artistId":"310634000","artistName":"WhatsApp Inc.","artistUrl":"https://itunes.apple.com/fr/artist/whatsapp-inc/310634000?l=en\u0026mt=12","kind":"desktopApp","name":"WhatsApp Desktop","url":"https://itunes.apple.com/fr/app/whatsapp-desktop/id1147396723?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st23525909"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567610"}]},"artwork":{"data":{"type":"image","id":"st23525910"}}}},{"type":"lockup/app","id":"1381523962","attributes":{"deviceFamilies":["mac"],"artistId":"1065781768","artistName":"Life On Air, Inc","artistUrl":"https://itunes.apple.com/fr/artist/life-on-air-inc/1065781768?l=en\u0026mt=12","kind":"desktopApp","name":"Houseparty","url":"https://itunes.apple.com/fr/app/houseparty/id1381523962?l=en\u0026mt=12"},"relationships":{"offers":{"data":[{"type":"offer","id":"st26387633"}]},"genres":{"data":[{"type":"genre","id":"st45044908"},{"type":"genre","id":"st20567608"}]},"artwork":{"data":{"type":"image","id":"st26387634"}}}},{"type":"review","id":"st45044909","attributes":{"body":"Depuis les deux dernières mises à jour les pseudos que j’avais indiqués ne sont plus signalés quand ils se connectent au chat…\n\nSinon super appli ! Simple, sobre et très efficace\n\nBravo","date":"2018-06-29T13:45:59Z","name":"Serenissime","rating":4,"title":"Bug depuis 2 mises à jour","userReviewId":"2796623611","response":{}},"relationships":{}},{"type":"review","id":"st45044910","attributes":{"body":"Très bonne application, très stable et performante, jolie et agréable.\nDe nombreuse features très cool !\nGratuit, open source,\nTOP !","date":"2016-05-22T22:53:52Z","name":"VarTyOie","rating":5,"title":"Full of feature","userReviewId":"1382666129","response":{}},"relationships":{}},{"type":"review","id":"st45044911","attributes":{"body":"Ce client est très efficace car très léger et assez joli.\nIl gagnerait en revanche à être légèrement pls paramétrable.\nDe plus la commande /DCC n'est pas reconnue sur des serveurs qui le supportent pourtant comme QuakeNet. Dommage.\n\nSinon je recommande cette appli sans hésiter.","date":"2011-12-26T18:25:15Z","name":"Uryupinsk","rating":4,"title":"Très bon mais","userReviewId":"501483282","response":{}},"relationships":{}},{"type":"review","id":"st45044912","attributes":{"body":"Je voulais une applications pour chatter sur IRC, et c'est ce que fait cette application.\nPour moi, c'est parfait.","date":"2012-05-13T21:42:58Z","name":"papa75","rating":5,"title":"C'est ce que je cherchais","userReviewId":"582868055","response":{}},"relationships":{}},{"type":"review","id":"st45044913","attributes":{"body":"Tiny and efficient, won't bug at closing like XChat Azure. \nMThx to it's creator.","date":"2011-11-28T18:30:16Z","name":"Olemaire","rating":5,"title":"just fine - Mthx to it's creator","userReviewId":"488409326","response":{}},"relationships":{}}]}</script><script type="fastboot/shoebox" id="shoebox-ember-locale-store">{"priceCurrency":"EUR","storefrontId":"143442","languageCode":"en-gb","storefront":"FR"}</script><script type="fastboot/shoebox" id="shoebox-metrics-base">{"pageType":"Software","pageId":"414030210","pageDetails":"Satoshi Nakagawa_LimeChat","page":"Software_414030210","serverInstance":"2002704","storeFrontHeader":"","language":"2","platformId":"8","platformName":"ItunesPreview","storeFront":"143442","environmentDataCenter":"ST11"}</script><script type="fastboot/shoebox" id="shoebox-global-elements">{"isLoaded":true}</script><script type="x/boundary" id="fastboot-body-end"></script>
+
+    <script src="https://web-experience.itunes.apple.com/assets/vendor-be924f4b8cd6597fc0b21839baf2881d.js"></script>
+    <script src="https://web-experience.itunes.apple.com/assets/web-experience-app-d6dcacc06615b13c9a187d25b22fb481.js"></script>
+
+    <div id="ember-basic-dropdown-wormhole"></div>
+  </body>
+</html>
