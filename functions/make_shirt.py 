@@ -1,0 +1,8 @@
+# code : utf8
+def make_shirt(size='large', message='I love Python!'):
+	print("\nYou choose " + size.upper() + '.')
+	print("And you wan't to write : '" + message.capitalize() + "'.")
+
+make_shirt()
+make_shirt(size='XL')
+make_shirt(message='je vous baise tous')
