@@ -7,3 +7,5 @@ def describe_city(name, country='united states of america'):
 describe_city("los angeles")
 describe_city('new york')
 describe_city('paris', 'france')
+
+describe_city('goa', 'india')
